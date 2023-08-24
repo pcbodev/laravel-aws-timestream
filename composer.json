@@ -1,5 +1,5 @@
 {
-    "name": "norbybaru/laravel-aws-timestream",
+    "name": "pcbodev/laravel-aws-timestream",
     "description": "Library to interact with AWS Timestream service via API",
     "keywords": ["aws timestream", "laravel aws timestream", "laravel timeseries db", "timeseries db"],
     "type": "library",

@@ -12,9 +12,13 @@ See supported query functions `NorbyBaru\AwsTimestream\Contract\QueryBuilderCont
 It also provide a payload builder class to format your data correctly to ingest into timestream. 
 See `NorbyBaru\AwsTimestream\Contract\PayloadBuilderContract`
 
+## Info
+We forked the repository of norbybaru because he built an awesome basis for timestream query builder, but we needed some
+additional features and therefore have implemented those in our fork.
+
 ## Install
 ```bash
-composer require norbybaru/laravel-aws-timestream
+composer require pcbodev/laravel-aws-timestream
 ```
 
 ## Configuration
