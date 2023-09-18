@@ -161,6 +161,7 @@ class TimestreamService
             'BIGINT' => (int) $value,
             'VARCHAR' => (string) $value,
             'DOUBLE' => (float) $value,
+            'BOOLEAN' => strtolower($value) === 'true',
             'TIMESTAMP' => Carbon::createFromFormat('Y-m-d H:i:s.u000', $value),
             default => throw new UnknownTimestreamDataTypeException('Unknown Data Type From TimeStream: ' . $type),
         };
